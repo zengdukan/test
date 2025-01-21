@@ -20,6 +20,7 @@ public:
         return _myAtoi(s.c_str());
     }
 
+
     int _myAtoi(const char* s) {
         int ret = 0;
         int less_0 = 0;
